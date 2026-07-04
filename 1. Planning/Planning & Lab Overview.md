@@ -26,7 +26,7 @@ The diagram below illustrates the network structure, including the domain contro
 
 📸 **Lab Architecture**
 
-![Lab Architecture](../06-Screenshots/I.%20Planning/lab-architecture.png)
+![Lab Architecture](../06-Screenshots/I.%20Planning/lab-architecture.png.png)
 
 ---
 
