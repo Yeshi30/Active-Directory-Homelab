@@ -2,13 +2,71 @@
 
 ---
 
-## 📘 Overview
-The planning phase is crucial for establishing a structured and efficient Active Directory (AD) lab environment. This phase involves defining the lab's objectives, designing the network topology, selecting appropriate hardware and software, and outlining the implementation roadmap. Proper planning ensures that the lab setup aligns with learning goals and simulates real-world IT support scenarios effectively.
+## 📝 1. Objectives
+
+The goal of this lab is to simulate a small enterprise Active Directory 
+environment to build practical IT support skills. This lab is designed 
+to mirror real-world helpdesk and sysadmin tasks expected in entry-level 
+IT support roles.
+
+Key focus areas include:
+
+- Domain Controller deployment using **Windows Server 2022**
+- Client machine domain joining with **Windows 10**
+- Implementation of **Group Policy Objects (GPOs)** for security and user management
+- Configuration of **DNS** and network services
+- **User, group, and OU management** simulating a real company structure
+- Troubleshooting and documenting common AD issues
 
 ---
 
-## 🎯 Objectives
-- Skill Development: Gain hands-on experience with Active Directory services, including domain controllers, DNS, Group Policy Objects (GPOs), and user management.
-- IT Support Readiness: Build practical skills that directly map to entry-level IT support and helpdesk roles.
-- Testing Environment: Create a safe space to test configurations and security policies without affecting production systems.
-- Scenario Simulation: Replicate common enterprise environments to practice deployment, troubleshooting, and administrative tasks.
+## 🛠️ 2. Lab Components
+
+| Component | Details |
+|---|---|
+| **Domain** | Yeshi.local |
+| **Domain Controller** | Windows Server 2022 (Evaluation) |
+| **Client Machine** | Windows 10 |
+| **Virtualisation** | VirtualBox |
+| **Network Type** | Internal Network (VirtualBox) |
+| **Host OS** | Windows 11 |
+
+---
+
+## ✅ 3. Pre-Requisites
+
+- Host system with sufficient RAM
+- VirtualBox installed
+- Windows Server 2022 ISO (Microsoft Evaluation Center)
+- Windows 10 ISO (Microsoft Media Creation Tool)
+- Basic understanding of networking (IP, DNS)
+- GitHub repository for documentation
+
+---
+
+## 🔍 4. Planning Considerations
+
+- Used VirtualBox Internal Network for VM communication
+- Domain name `Yeshi.local` for local enterprise simulation
+- OUs organised by department (IT, HR, Finance, Marketing, Sales)
+- Each step documented with screenshots
+- Lab designed to support IT support job applications
+
+---
+
+## 📚 5. Skills Targeted
+
+| Job Requirement | How This Lab Covers It |
+|---|---|
+| Windows environment experience | Windows Server 2022 administration |
+| Identity management | AD users, groups, and OUs |
+| Security tools exposure | GPO password and lockout policies |
+| Troubleshooting skills | Documented issues and fixes |
+| Networking fundamentals | DNS, static IP, domain communication |
+
+---
+
+## 📁 6. Screenshot Storage
+
+All screenshots for this section can be found in:  
+📂 [`06-Screenshots/I. Planning`](../06-Screenshots/I.%20Planning/)
