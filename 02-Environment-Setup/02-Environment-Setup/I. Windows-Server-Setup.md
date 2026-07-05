@@ -15,7 +15,7 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **OS Selection Screen**
 
-![01](../06-Screenshots/I.%20Planning/06-Screenshots/II.%20Windows-Server-Setup/01.png)
+![01](../06-Screenshots/I.%20Planning/06-Screenshots/II.%20Windows-Server-Setup/01.png.png)
 
 📸 **Admin Password Setup**
 
