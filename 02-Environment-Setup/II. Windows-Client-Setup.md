@@ -17,7 +17,7 @@ I created a new VM in VirtualBox with the following specifications:
 
 📸 *Windows Setup — Installing Windows*
 
-![Installing Windows](06-Screenshots/III.%20Windows-Client-Setup/01.png)
+![Installing Windows](../06-Screenshots/III.%20Windows-Client-Setup/01.png)
 
 ---
 
