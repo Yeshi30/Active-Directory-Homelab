@@ -10,7 +10,7 @@ This project was built to develop practical IT support skills that directly map 
 
 ## 🏗️ Lab Architecture
 
-![Lab Architecture](06-Screenshots/I.%20Planning/lab-architecture.png)
+![Lab Architecture](06-Screenshots/I.%20Planning/lab-architecture.png.png)
 
 ---
 
