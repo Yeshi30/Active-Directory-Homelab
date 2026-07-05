@@ -35,11 +35,11 @@ After installation, I did the following on the client:
 
 📸 *Device Specifications for CLIENT01 (Before Domain Join)*
 
-![Device Specifications Before Domain Join](06-Screenshots/III.%20Windows-Client-Setup/02.png)
+![Device Specifications Before Domain Join](../06-Screenshots/III.%20Windows-Client-Setup/02.png)
 
 📸 *Network Settings with Static IP and DNS for CLIENT01*
 
-![Static IP and DNS Configuration](06-Screenshots/III.%20Windows-Client-Setup/03.png)
+![Static IP and DNS Configuration](../06-Screenshots/III.%20Windows-Client-Setup/03.png)
 
 ---
 
@@ -54,7 +54,7 @@ On the client:
 
 📸 *Domain Join Prompt with Domain Name Entered*
 
-![Domain Join Prompt](06-Screenshots/III.%20Windows-Client-Setup/04.png)
+![Domain Join Prompt](../06-Screenshots/III.%20Windows-Client-Setup/04.png)
 
 ---
 
@@ -69,23 +69,23 @@ After reboot, I:
 
 📸 *About Page Showing Domain-Joined Device (CLIENT01.Yeshi.local)*
 
-![About Page Showing Domain Joined](06-Screenshots/III.%20Windows-Client-Setup/05.png)
+![About Page Showing Domain Joined](../06-Screenshots/III.%20Windows-Client-Setup/05.png)
 
 📸 *Command Prompt Showing Successful Ping to Domain Controller*
 
-![Ping to Domain Controller](06-Screenshots/III.%20Windows-Client-Setup/06.png)
+![Ping to Domain Controller](../06-Screenshots/III.%20Windows-Client-Setup/06.png)
 
 📸 *Command Prompt Showing nslookup Resolving Yeshi.local*
 
-![nslookup Yeshi.local](06-Screenshots/III.%20Windows-Client-Setup/07.png)
+![nslookup Yeshi.local](../06-Screenshots/III.%20Windows-Client-Setup/07.png)
 
 📸 *System Properties Showing Domain Joined*
 
-![System Properties Showing Domain Joined](06-Screenshots/III.%20Windows-Client-Setup/08.png)
+![System Properties Showing Domain Joined](../06-Screenshots/III.%20Windows-Client-Setup/08.png)
 
 📸 *Active Directory Users and Computers Showing CLIENT01*
 
-![ADUC Showing CLIENT01](06-Screenshots/III.%20Windows-Client-Setup/09.png)
+![ADUC Showing CLIENT01](../06-Screenshots/III.%20Windows-Client-Setup/09.png)
 
 ---
 
