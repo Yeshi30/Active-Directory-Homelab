@@ -14,7 +14,7 @@ I created Organizational Units by department and populated them with users and s
 
 📸 *Active Directory Users and Computers — Departmental OU Structure*
 
-![OU Structure](.,/06-Screenshots/IV.%20Active-Directory-Setup/01.png)
+![OU Structure](.,/06-Screenshots/IV.%20Active-Directory-Setup/1.png)
 
 📸 *New Object - User: Creating John Smith in the IT OU*
 
