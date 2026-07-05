@@ -56,7 +56,7 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **Server Manager Showing AD DS Role**
 
-![07](../06-Screenshots/II.%20Windows-Server-Setup/07.png.png)
+![07](../06-Screenshots/II.%20Windows-Server-Setup/07.png)
 
 ---
 
@@ -69,15 +69,15 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **Deployment Configuration — New Forest Yeshi.local**
 
-![08](../06-Screenshots/II.%20Windows-Server-Setup/08.png.png)
+![08](../06-Screenshots/II.%20Windows-Server-Setup/08.png)
 
 📸 **Domain Controller Options**
 
-![09](../06-Screenshots/II.%20Windows-Server-Setup/09.png.png)
+![09](../06-Screenshots/II.%20Windows-Server-Setup/09.png)
 
 📸 **Prerequisites Check Passed**
 
-![10](../06-Screenshots/II.%20Windows-Server-Setup/10.png.png)
+![10](../06-Screenshots/II.%20Windows-Server-Setup/10.png)
 
 ---
 
@@ -88,21 +88,21 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **dcdiag Results**
 
-![11](../06-Screenshots/II.%20Windows-Server-Setup/11.png.png)
+![11](../06-Screenshots/II.%20Windows-Server-Setup/11.png)
 
-![12](../06-Screenshots/II.%20Windows-Server-Setup/12.png.png)
+![12](../06-Screenshots/II.%20Windows-Server-Setup/12.png)
 
-![13](../06-Screenshots/II.%20Windows-Server-Setup/13.png.png)
+![13](../06-Screenshots/II.%20Windows-Server-Setup/13.png)
 
-![14](../06-Screenshots/II.%20Windows-Server-Setup/14.png.png)
+![14](../06-Screenshots/II.%20Windows-Server-Setup/14.png)
 
-![15](../06-Screenshots/II.%20Windows-Server-Setup/15.png.png)
+![15](../06-Screenshots/II.%20Windows-Server-Setup/15.png)
 
-![16](../06-Screenshots/II.%20Windows-Server-Setup/16.png.png)
+![16](../06-Screenshots/II.%20Windows-Server-Setup/16.png)
 
 📸 **DNS Manager Showing Yeshi.local Forward Lookup Zone**
 
-![17](../06-Screenshots/II.%20Windows-Server-Setup/17.png.png)
+![17](../06-Screenshots/II.%20Windows-Server-Setup/17.png)
 
 ---
 
