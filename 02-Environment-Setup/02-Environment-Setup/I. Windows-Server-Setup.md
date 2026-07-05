@@ -1,40 +1,44 @@
 # 🖥️ Windows Server 2022 Setup
 
-This section documents the step-by-step process of installing and configuring **Windows Server 2022** as the Domain Controller (DC) for the lab environment. The process included setting a static IP, changing the computer name, installing Active Directory Domain Services, and promoting the server to a DC.
+This section documents the step-by-step process of installing and configuring **Windows Server 2022** as the Domain Controller (DC) for the lab environment.
 
 ---
 
 ## 💾 1. Installation
 
-- Created a new virtual machine in **VirtualBox** with the following specs:
-  - **VM Name:** DC01
-  - **RAM:** 2 GB
-  - **CPU:** 2 cores
-  - **Storage:** 50 GB
-  - **Network:** Internal Network (intnet)
-- Mounted the **Windows Server 2022 ISO** and completed the installation.
-- Selected **Windows Server 2022 Datacenter Evaluation (Desktop Experience)** during setup.
+- **VM Name:** DC01
+- **RAM:** 2 GB
+- **CPU:** 2 cores
+- **Storage:** 50 GB
+- **Network:** Internal Network (intnet)
+- Selected **Windows Server 2022 Datacenter Evaluation (Desktop Experience)**
 
-📸 **Installation Setup Screen with Edition Selection**
+📸 **OS Selection Screen**
 
 ![01](../06-Screenshots/II.%20Windows-Server-Setup/01.png)
+
+📸 **Admin Password Setup**
+
+![02](../06-Screenshots/II.%20Windows-Server-Setup/02.png)
+
+📸 **First Boot — Server Manager Dashboard**
+
+![03](../06-Screenshots/II.%20Windows-Server-Setup/03.png)
 
 ---
 
 ## 💻 2. Initial Configuration
 
-After installation, I performed the following:
+- Changed machine name to `DC01`
+- Set static IP: `192.168.1.10`
+- DNS pointing to itself: `192.168.1.10`
+- Time zone: Australian Western Standard Time (UTC+08:00)
 
-- Changed the machine name to `DC01`
-- Set a **static IP address:** `192.168.1.10`
-- Configured DNS to point to itself (`192.168.1.10`)
-- Set the time zone to **Australian Western Standard Time (UTC+08:00)**
-
-📸 **System Info Showing DC01**
+📸 **System About Showing DC01**
 
 ![04](../06-Screenshots/II.%20Windows-Server-Setup/04.png)
 
-📸 **Network Settings Showing Static IP and DNS Config**
+📸 **Static IP and DNS Configuration**
 
 ![05](../06-Screenshots/II.%20Windows-Server-Setup/05.png)
 
@@ -42,55 +46,63 @@ After installation, I performed the following:
 
 ## 🧱 3. Installing AD DS Role
 
-- Opened **Server Manager**
-- Selected **Add Roles and Features**
-- Installed the **Active Directory Domain Services (AD DS)** role
+- Opened Server Manager → Add Roles and Features
+- Installed **Active Directory Domain Services**
 - Also installed **Group Policy Management** and **DNS Server**
 
 📸 **AD DS Installation Progress**
 
-![07](../06-Screenshots/II.%20Windows-Server-Setup/07.png)
+![06](../06-Screenshots/II.%20Windows-Server-Setup/06_png.png)
+
+📸 **Server Manager Showing AD DS Role**
+
+![07](../06-Screenshots/II.%20Windows-Server-Setup/07_png.png)
 
 ---
 
 ## 🏰 4. Promoting to Domain Controller
 
-- Promoted the server to a DC using the post-installation wizard
-- Created a **new forest** named `Yeshi.local`
-- Accepted the default NetBIOS name: `YESHI`
-- Set the **DSRM password**
-- Rebooted after setup completed
+- Created a new forest named `Yeshi.local`
+- NetBIOS name: `YESHI`
+- Set DSRM password
+- Rebooted after setup
 
 📸 **Deployment Configuration — New Forest Yeshi.local**
 
-![09](../06-Screenshots/II.%20Windows-Server-Setup/09.png)
+![08](../06-Screenshots/II.%20Windows-Server-Setup/08_png.png)
 
 📸 **Domain Controller Options**
 
-![10](../06-Screenshots/II.%20Windows-Server-Setup/10.png)
+![09](../06-Screenshots/II.%20Windows-Server-Setup/09_png.png)
 
 📸 **Prerequisites Check Passed**
 
-![11](../06-Screenshots/II.%20Windows-Server-Setup/11.png)
+![10](../06-Screenshots/II.%20Windows-Server-Setup/10_png.png)
 
 ---
 
 ## 🧪 5. Post-Installation Checks
 
-- Logged in using the domain admin account
-- Verified domain controller health using `dcdiag` in PowerShell
-- Confirmed DNS was properly installed and functioning
-- Verified `Yeshi.local` forward lookup zone in DNS Manager
+- Ran `dcdiag` to verify DC health
+- Verified DNS forward lookup zone for `Yeshi.local`
 
 📸 **dcdiag Results**
 
-![12](../06-Screenshots/II.%20Windows-Server-Setup/12.png)
+![11](../06-Screenshots/II.%20Windows-Server-Setup/11_png.png)
 
-![13](../06-Screenshots/II.%20Windows-Server-Setup/13.png)
+![12](../06-Screenshots/II.%20Windows-Server-Setup/12_png.png)
 
-📸 **DNS Manager Showing Forward Lookup Zone for Yeshi.local**
+![13](../06-Screenshots/II.%20Windows-Server-Setup/13_png.png)
 
-![18](../06-Screenshots/II.%20Windows-Server-Setup/18.png)
+![14](../06-Screenshots/II.%20Windows-Server-Setup/14_png.png)
+
+![15](../06-Screenshots/II.%20Windows-Server-Setup/15_png.png)
+
+![16](../06-Screenshots/II.%20Windows-Server-Setup/16_png.png)
+
+📸 **DNS Manager Showing Yeshi.local Forward Lookup Zone**
+
+![17](../06-Screenshots/II.%20Windows-Server-Setup/17_png.png)
 
 ---
 
