@@ -11,10 +11,12 @@ I created Organizational Units by department and populated them with users and s
 - **OUs Created:** IT, HR, Finance, Marketing, Sales
 - **Example User:** John Smith (`jsmith@Yeshi.local`) — created in the IT OU
 - **Example Groups:** IT-Staff (Global Security group), Sales-Staff (with member David Lee)
-
-📸 *Active Directory Users and Computers — Departmental OU Structure*
-
-![OU Structure](.,/06-Screenshots/IV.%20Active-Directory-Setup/1.png)
+Yeshi.local
+├── IT
+├── HR
+├── Finance
+├── Marketing
+└── Sales
 
 📸 *New Object - User: Creating John Smith in the IT OU*
 
