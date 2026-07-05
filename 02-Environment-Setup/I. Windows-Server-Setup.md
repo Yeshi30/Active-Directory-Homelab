@@ -52,7 +52,7 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **AD DS Installation Progress**
 
-![06](../06-Screenshots/II.%20Windows-Server-Setup/06.png.png)
+![06](../06-Screenshots/II.%20Windows-Server-Setup/06.png)
 
 📸 **Server Manager Showing AD DS Role**
 
