@@ -100,4 +100,4 @@ After reboot, I:
 ### 📁 6. Screenshot Storage
 
 All screenshots for this section can be found in:
-`06-Screenshots/III. Windows-Client-Setup`
+📂 [`06-Screenshots/III. Windows-Client-Setup`](../06-Screenshots/III.%20Windows-Client-Setup/)
