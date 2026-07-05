@@ -52,11 +52,11 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **AD DS Installation Progress**
 
-![06](../06-Screenshots/II.%20Windows-Server-Setup/06_png.png)
+![06](../06-Screenshots/II.%20Windows-Server-Setup/06.png.png)
 
 📸 **Server Manager Showing AD DS Role**
 
-![07](../06-Screenshots/II.%20Windows-Server-Setup/07_png.png)
+![07](../06-Screenshots/II.%20Windows-Server-Setup/07.png.png)
 
 ---
 
@@ -69,15 +69,15 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **Deployment Configuration — New Forest Yeshi.local**
 
-![08](../06-Screenshots/II.%20Windows-Server-Setup/08_png.png)
+![08](../06-Screenshots/II.%20Windows-Server-Setup/08.png.png)
 
 📸 **Domain Controller Options**
 
-![09](../06-Screenshots/II.%20Windows-Server-Setup/09_png.png)
+![09](../06-Screenshots/II.%20Windows-Server-Setup/09.png.png)
 
 📸 **Prerequisites Check Passed**
 
-![10](../06-Screenshots/II.%20Windows-Server-Setup/10_png.png)
+![10](../06-Screenshots/II.%20Windows-Server-Setup/10.png.png)
 
 ---
 
@@ -88,21 +88,21 @@ This section documents the step-by-step process of installing and configuring **
 
 📸 **dcdiag Results**
 
-![11](../06-Screenshots/II.%20Windows-Server-Setup/11_png.png)
+![11](../06-Screenshots/II.%20Windows-Server-Setup/11.png.png)
 
-![12](../06-Screenshots/II.%20Windows-Server-Setup/12_png.png)
+![12](../06-Screenshots/II.%20Windows-Server-Setup/12.png.png)
 
-![13](../06-Screenshots/II.%20Windows-Server-Setup/13_png.png)
+![13](../06-Screenshots/II.%20Windows-Server-Setup/13.png.png)
 
-![14](../06-Screenshots/II.%20Windows-Server-Setup/14_png.png)
+![14](../06-Screenshots/II.%20Windows-Server-Setup/14.png.png)
 
-![15](../06-Screenshots/II.%20Windows-Server-Setup/15_png.png)
+![15](../06-Screenshots/II.%20Windows-Server-Setup/15.png.png)
 
-![16](../06-Screenshots/II.%20Windows-Server-Setup/16_png.png)
+![16](../06-Screenshots/II.%20Windows-Server-Setup/16.png.png)
 
 📸 **DNS Manager Showing Yeshi.local Forward Lookup Zone**
 
-![17](../06-Screenshots/II.%20Windows-Server-Setup/17_png.png)
+![17](../06-Screenshots/II.%20Windows-Server-Setup/17.png.png)
 
 ---
 
